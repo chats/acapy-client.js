@@ -22,7 +22,7 @@ npm run format
 ## 📝 Before Publishing
 
 1. **Update package.json:**
-   - Package name already set to `@chats/acapy-client`
+   - Package name already set to `@chats/acapy-client-js`
    - Repository URL set to `https://github.com/chats/acapy-client-js.git`
 
 2. **Update .npmrc:**

@@ -2,7 +2,7 @@
 
 ## 📦 Package Information
 
-- **Name:** `@chats/acapy-client`
+- **Name:** `@chats/acapy-client-js`
 - **Version:** 1.0.0
 - **License:** Apache-2.0
 - **Target Registry:** GitHub Packages (npm)
@@ -195,7 +195,7 @@ When published, the package includes:
 
 ### 📝 **Next Steps to Publish:**
 
-1. **Update package name** in `package.json` (already set to `@chats/acapy-client`)
+1. **Update package name** in `package.json` (already set to `@chats/acapy-client-js`)
 
 2. **Update .npmrc** with your org name (already set to `@chats`)
 

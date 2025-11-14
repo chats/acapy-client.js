@@ -1,6 +1,6 @@
 {
-  "name": "@chats/acapy-client",
-  "version": "1.0.0",
+  "name": "@chats/acapy-client-js",
+  "version": "0.0.1",
   "description": "TypeScript client library for Aries Cloud Agent Python (ACA-Py) API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -32,7 +32,7 @@
     "verifiable-credentials",
     "did"
   ],
-  "author": "Your Name",
+  "author": "Chatchai Siriputtha",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",

@@ -16,7 +16,7 @@ Edit `package.json` and replace `@chats` with your GitHub username or organizati
 
 ```json
 {
-  "name": "@chats/acapy-client",
+  "name": "@chats/acapy-client-js",
   "repository": {
     "type": "git",
     "url": "https://github.com/chats/acapy-client-js.git"
@@ -132,12 +132,12 @@ To use automated publishing:
 
 2. **Install the package:**
    ```bash
-   npm install @YOUR-GITHUB-USERNAME/acapy-client
+   npm install @chats/acapy-client-js
    ```
 
 3. **Use in your code:**
    ```typescript
-   import { ACAcpyClient } from '@YOUR-GITHUB-USERNAME/acapy-client';
+   import { ACAcpyClient } from '@chats/acapy-client-js';
 
    const client = new ACAcpyClient({
      baseUrl: 'http://localhost:8031',
@@ -226,7 +226,7 @@ By default, packages published to GitHub Packages are **private**.
    ```bash
    npm pack
    # This creates a .tgz file you can test install
-   npm install ./chats-acapy-client-1.0.0.tgz
+   npm install ./chats-acapy-client-js-1.0.0.tgz
    ```
 
 ## Additional Resources

@@ -2,7 +2,7 @@
 
 A TypeScript client library for interacting with [Aries Cloud Agent Python (ACA-Py)](https://github.com/hyperledger/aries-cloudagent-python) API.
 
-[![npm version](https://badge.fury.io/js/%40chats%2Facapy-client.svg)](https://badge.fury.io/js/%40chats%2Facapy-client)
+[![npm version](https://badge.fury.io/js/%40chats%2Facapy-client-js.svg)](https://badge.fury.io/js/%40chats%2Facapy-client-js)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Features
@@ -26,19 +26,19 @@ npm login --registry=https://npm.pkg.github.com
 Then install the package:
 
 ```bash
-npm install @chats/acapy-client
+npm install @chats/acapy-client-js
 ```
 
 Or with yarn:
 
 ```bash
-yarn add @chats/acapy-client
+yarn add @chats/acapy-client-js
 ```
 
 ## Quick Start
 
 ```typescript
-import { ACAcpyClient } from '@chats/acapy-client';
+import { ACAcpyClient } from '@chats/acapy-client-js';
 
 // Initialize the client
 const client = new ACAcpyClient({
@@ -221,7 +221,7 @@ const isAlive = await client.isAlive();
 The client provides specialized error classes for different operations:
 
 ```typescript
-import { ACAcpyError, ConnectionError, CredentialError, ProofError } from '@chats/acapy-client';
+import { ACAcpyError, ConnectionError, CredentialError, ProofError } from '@chats/acapy-client-js';
 
 try {
   const connection = await client.getConnection('invalid-id');
@@ -322,7 +322,7 @@ npm run format
 1. Update the package name in `package.json` to match your GitHub organization:
    ```json
    {
-     "name": "@chats/acapy-client"
+     "name": "@chats/acapy-client-js"
    }
    ```
 
